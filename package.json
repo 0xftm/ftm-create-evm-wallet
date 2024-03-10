@@ -1,0 +1,33 @@
+{
+  "name": "ftm-create-evm-wallet",
+  "version": "1.0.0",
+  "description": "A Node.js module to create Ethereum Virtual Machine (EVM) wallets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xftm/ftm-create-evm-wallet.git"
+  },
+  "keywords": [
+    "ftm-create-evm-wallet",
+    "ethereum",
+    "evm",
+    "wallet",
+    "crypto"
+  ],
+  "author": "0xftm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0xftm/ftm-create-evm-wallet/issues"
+  },
+  "homepage": "https://github.com/0xftm/ftm-create-evm-wallet#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^5.0.0",
+    "ftm-gas-convert": "1.0.0",
+    "ftm-check-gas-price": "1.0.0",
+    "ftm-check-balance": "1.0.0"
+  }
+}
